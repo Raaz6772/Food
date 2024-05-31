@@ -1,0 +1,8 @@
+{% extends 'food/base.html' %}
+
+{% block body %}
+<form type="POST">
+    <h3>Are you sure you want to delete {{pq.item_name}}</h3>
+    <button type="submit">Confirm</button>
+</form>
+{% endblock %}
